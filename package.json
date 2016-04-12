@@ -1,0 +1,22 @@
+{
+  "name": "es2015-start",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "dependencies": {
+      "merge": "^1.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.7.6",
+    "babel-eslint": "^6.0.2",
+    "babel-loader": "^6.2.4",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack/dev.js --progress --colors",
+    "build": "webpack --config ./webpack/prod.js --progress --colors"
+  },
+  "author": "Zehao Zhang",
+  "license": "ISC"
+}
